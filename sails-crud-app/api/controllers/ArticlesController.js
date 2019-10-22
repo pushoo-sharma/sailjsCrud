@@ -7,7 +7,8 @@
 
 module.exports = {
   list : (req, res) => {
-      res.send('hello sails.js');
+    //   res.send('hello sails.js');
+    res.view('article/articles');
   }
 };
 
